@@ -5,7 +5,7 @@
 	--main-font-color: #EFEDEB;
 }
 
-html,body{
+html, body{
 	height: 100vh;
 	width: 100%;
 	color: var(--main-font-color);
@@ -13,6 +13,8 @@ html,body{
 	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 5px;
+
+	background: var(--main-bg-color);
 }
 
 a{
@@ -36,7 +38,6 @@ a{
 .top_left{
 	height: 100%;
 	width: 300px;
-	background: var(--main-bg-color);
 }
 
 .top_right{
@@ -80,4 +81,29 @@ a{
 	justify-content: center;
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+#header{
+	display: flex;
+	text-align: center
+	align-items:flex-end;
+	justify-content: space-between;
+}
+
+#header li{
+	display: inline-block;
+}
+
+.header_logo, .header_logo_img{
+	width: 50px;
+	height: auto;
+}
+
+#pan_list{
+	background: #404040;
+}
+
+.main_container{
+	display: flex;
+	justify-content: center;
 }
