@@ -13,7 +13,6 @@ html, body{
 	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 5px;
-
 	background: var(--main-bg-color);
 }
 
@@ -105,5 +104,32 @@ a{
 
 .main_container{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	min-height: 90%;
+}
+
+.content{
+	padding-top: 60px;
+	width: 900px;
+}
+
+.sentense{
+	margin-right: 21px;
+	margin-left: 21px;
+}
+
+.profile_txt{
+	height: 300px;
+}
+
+.profile_txt img{
+	float: right;
+	height: 300px;
+}
+
+footer{
+	border-top: 5px solid #404040;
+	padding-top: 10px;
+	text-align: center;
 }
