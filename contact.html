@@ -25,29 +25,26 @@
 		</div>
 	</div>
 	<div id="pan_list">
-		<div><a href="/">HOME</a>&gt;Profile</div>
+		<div><a href="/">HOME</a>&gt;Contact</div>
 	</div>
 	<div class="main_container">
 		<div class="content">
-			<div class="sentense profile_txt">
-				<img src="./image/profile.png" alt="艶々 漆工芸作家組">
-				<p>
-					“艶々” は石川県山中温泉にて漆作品の制作、<br>金継ぎによる修復を行う集団です。
-				</p>
-				<p>
-					<br>
-					201? 修行開始<br>
-					201? グループ結成<br>
-					<br>
-				</p>
-				<p>
-				本漆を使用し、古来のやり方で丁寧にお直し<br>いたします。<br>
-				ご満足して頂く仕上がりにしたいからこそ<br>しっかり打ち合わせをし、お時間を頂戴<br>いたします。
-				</p>
-			</div>
-			<div class="sentense sns_txt">
-				<p>Instagram:&nbsp;<a href="https://www.instagram.com/tsuya_2/">tsuya_2</a></p>
-				<p>Twitter:&nbsp;<a href="https://twitter.com/2_tsuya">tsuya_2</a></p>
+			<div class="form-group">
+				<div class="form-item">
+					<label for="name">名前</label>
+					<input type="text" id="name" maxlength="20" required>
+				</div>
+				<div class="form-item">
+					<label for="email">メールアドレス</label>
+					<input type="mail" id="email" maxlength="100" required>
+				</div>
+				<div class="form-item">
+					<label for="message">内容(400文字以内)</label>
+					<textarea id="message" cols="40" rows="4" maxlength="400" required></textarea>
+				</div>
+				<div class="form-item">
+					<button type="submit">送信</button>
+				</div>
 			</div>
 		</div>
 	</div>

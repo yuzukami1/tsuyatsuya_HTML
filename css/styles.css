@@ -146,8 +146,41 @@ a{
 	width: var(--img-width);
 }
 
+.form-item{
+	margin-bottom:50px;
+}
+
 footer{
 	border-top: 5px solid #404040;
 	padding-top: 10px;
 	text-align: center;
+}
+
+input, label{
+	display: block;
+}
+
+input{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+	font-size:1.5rem;
+	background: var(--main-font-color);
+}
+
+textarea{
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+	font-size:1.5rem;
+	background: var(--main-font-color);
+}
+
+button{
+	font-size: 1rem;
+	letter-spacing: 3px;
+	padding: 10px 30px;
+	background: #248;/*#DA7400; */
+	border-style: none;
+	color: var(--main-font-color);
 }
