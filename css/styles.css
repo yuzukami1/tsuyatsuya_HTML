@@ -118,8 +118,10 @@ a{
 
 .pic-content{
 	width: 900px;
+	height: auto;
 	display:flex;
 	justify-content:space-between;
+	flex-wrap:wrap;
 }
 
 .sentense{
@@ -137,9 +139,7 @@ a{
 }
 
 .img-item{
-	height: var(--img-height);
-	width: var(--img-width);
-	margin: 90px;
+	padding: 60px;
 }
 .img-item>img{
 	height: var(--img-height);
