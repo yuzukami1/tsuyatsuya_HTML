@@ -89,10 +89,12 @@ a{
 	text-align: center
 	align-items:flex-end;
 	justify-content: space-between;
+	padding: 10px;
 }
 
 #header li{
 	display: inline-block;
+	padding-left: 10px;
 }
 
 .header_logo, .header_logo_img{
@@ -100,7 +102,13 @@ a{
 	height: auto;
 }
 
+.header_menu{
+	display: flex;
+	align-items: center;
+}
+
 #pan_list{
+	padding-left: 10px;
 	background: #404040;
 }
 
@@ -153,6 +161,7 @@ a{
 footer{
 	border-top: 5px solid #404040;
 	padding-top: 10px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
