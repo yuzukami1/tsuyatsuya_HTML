@@ -3,6 +3,8 @@
 	padding: 0;
 	--main-bg-color: #1E2525;
 	--main-font-color: #EFEDEB;
+	--img-height: 180px;
+	--img-width: 180px;
 }
 
 html, body{
@@ -114,6 +116,12 @@ a{
 	width: 900px;
 }
 
+.pic-content{
+	width: 900px;
+	display:flex;
+	justify-content:space-between;
+}
+
 .sentense{
 	margin-right: 21px;
 	margin-left: 21px;
@@ -126,6 +134,16 @@ a{
 .profile_txt img{
 	float: right;
 	height: 300px;
+}
+
+.img-item{
+	height: var(--img-height);
+	width: var(--img-width);
+	margin: 90px;
+}
+.img-item>img{
+	height: var(--img-height);
+	width: var(--img-width);
 }
 
 footer{
