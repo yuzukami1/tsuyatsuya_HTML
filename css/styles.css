@@ -149,7 +149,7 @@ a{
 .img-item{
 	padding: 60px;
 }
-.img-item>img{
+.img-item,img{
 	height: var(--img-height);
 	width: var(--img-width);
 }
