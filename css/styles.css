@@ -144,6 +144,7 @@ a{
 .profile_txt img{
 	float: right;
 	height: 300px;
+	width: auto;
 }
 
 .img-item{
