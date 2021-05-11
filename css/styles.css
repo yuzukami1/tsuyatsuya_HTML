@@ -1,8 +1,10 @@
 *{
 	margin: 0;
 	padding: 0;
-	--main-bg-color: #1E2525;
+	--main-bg-color: #000000;
 	--main-font-color: #EFEDEB;
+	--panlist-bg-color: #202020;
+	--footer-line-color: #202020;
 	--img-height: 180px;
 	--img-width: 180px;
 }
@@ -113,7 +115,7 @@ a{
 
 #pan_list{
 	padding-left: 10px;
-	background: #404040;
+	background: var(--panlist-bg-color);
 }
 
 .main_container{
@@ -172,7 +174,7 @@ a{
 }
 
 footer{
-	border-top: 5px solid #404040;
+	border-top: 5px solid var(--footer-line-color);
 	padding-top: 10px;
 	padding-bottom: 20px;
 	text-align: center;
