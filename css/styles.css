@@ -68,11 +68,15 @@ a{
 	justify-content: space-between;
 	text-align: justify;
 	width: 100%;
-	padding-right: 100px;
+	/* padding-right: 80px; */
 }
 
 .top_nav{
 	padding: 50px 30px;
+}
+.top_nav a:hover{
+	text-shadow: 0 0 30px var(--main-font-color);
+	/* color:#FFDC8C; 	/*リンクにマウスが乗ったら背景色を変更する*/ */
 }
 
 .top_bottom{
@@ -121,7 +125,7 @@ a{
 
 .content{
 	padding-top: 60px;
-	width: 900px;
+	width: 100%;
 }
 
 .pic-content{
@@ -135,6 +139,14 @@ a{
 .sentense{
 	margin-right: 21px;
 	margin-left: 21px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.sns_sentense{
+	margin-right: 21px;
+	margin-left: 21px;
+	margin-top: 30px;
 }
 
 .profile_txt{
@@ -193,4 +205,69 @@ button{
 	background: #248;/*#DA7400; */
 	border-style: none;
 	color: var(--main-font-color);
+}
+
+
+@media (max-width: 500px) {
+	html, body{
+		height: 100vh;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		letter-spacing:1px;
+	}
+
+	.f_column_container_narrow{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.top_nav{
+		padding-top: 30px;
+		padding-bottom:70px;
+	}
+
+
+
+	.top_right{
+		height:350px;
+	}
+	.vertical_justify_list{
+		pdding:auto;
+	}
+
+	.content{
+		padding: 5px;
+	}
+	.sentense{
+		margin: 0;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.sentense_right{
+		margin: 10px;
+		padding: 5px;
+		width: 100%;
+		height: 400px;
+	}
+	.sentense_left{
+		height: 400px;
+	}
+	.profile_txt{
+		height: 300px;
+	}
+
+	.profile_txt img{
+		float: none;
+		height: 300px;
+		width: auto;
+	}
+	.main_container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 90%;
+	}
+
+
 }
