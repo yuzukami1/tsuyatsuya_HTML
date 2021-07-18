@@ -31,7 +31,7 @@
 	<div class="main_container">
 		<div class="pic-content">
 			<div class="img-item">
-				<a href="image/piece_1_1.png" data-lightbox="piece_1-group"><img src="image/piece_1.png" alt="獅子舞"></a>
+				<a href="image/piece_1_1.png" data-lightbox="piece_1-group"><img class="card-shadow" src="image/piece_1.png" alt="獅子舞"></a>
 				<a href="image/piece_1_2.png" data-lightbox="piece_1-group"></a>
 				<a href="image/piece_1_3.png" data-lightbox="piece_1-group"></a>
 				<a href="image/piece_1_4.png" data-lightbox="piece_1-group"></a>
@@ -39,14 +39,14 @@
 				<a href="image/piece_1_6.png" data-lightbox="piece_1-group"></a>
 			</div>
 			<div class="img-item">
-				<a href="image/piece_2_1.png" data-lightbox="piece_2-group"><img src="image/piece_2.png" alt="鬼"></a>
+				<a href="image/piece_2_1.png" data-lightbox="piece_2-group"><img class="card-shadow" src="image/piece_2.png" alt="鬼"></a>
 				<a href="image/piece_2_2.png" data-lightbox="piece_2-group"></a>
 				<a href="image/piece_2_3.png" data-lightbox="piece_2-group"></a>
 				<a href="image/piece_2_4.png" data-lightbox="piece_2-group"></a>
 				<a href="image/piece_2_5.png" data-lightbox="piece_2-group"></a>
 			</div>
 			<div class="img-item">
-				<a href="image/piece_3_1.png" data-lightbox="piece_3-group"><img src="image/piece_3.png" alt="鶴の器"></a>
+				<a href="image/piece_3_1.png" data-lightbox="piece_3-group"><img class="card-shadow" src="image/piece_3.png" alt="鶴の器"></a>
 				<a href="image/piece_3_2.png" data-lightbox="piece_3-group"></a>
 				<a href="image/piece_3_3.png" data-lightbox="piece_3-group"></a>
 				<a href="image/piece_3_4.png" data-lightbox="piece_3-group"></a>
@@ -61,5 +61,13 @@
 
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/lightbox.js"></script>
+	<script>
+    lightbox.option({
+		'fadeDuration': 100,
+		'alwaysShowNavOnTouchDevices': true,
+    	'wrapAround': true,
+		'albumLabel': "%1 / %2"
+    })
+</script>
 </body>
 </html>

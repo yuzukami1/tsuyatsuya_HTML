@@ -4,6 +4,7 @@
 	--main-bg-color: #000000;
 	--main-font-color: #EFEDEB;
 	--panlist-bg-color: #202020;
+	--card-border-color: #000000;
 	--footer-line-color: #202020;
 	--img-height: 180px;
 	--img-width: 180px;
@@ -209,6 +210,11 @@ button{
 	color: var(--main-font-color);
 }
 
+.card-shadow{
+	/* border-radius: 2px; */
+	border:1px solid var(--card-border-color);
+	box-shadow: 5px 8px 20px rgba(255,255,255,0.25);
+}
 
 @media (max-width: 500px) {
 	html, body{
